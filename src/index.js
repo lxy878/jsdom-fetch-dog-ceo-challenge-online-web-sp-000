@@ -46,6 +46,6 @@ document.addEventListener('DOMContentLoaded', () =>{
 
   const select = document.querySelector('select#breed-dropdown');
   select.addEventListener('change', e => {
-    filter(e.target.value)
+    filter(e.target.value);
   });
 });
