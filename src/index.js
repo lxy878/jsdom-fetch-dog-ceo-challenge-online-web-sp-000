@@ -30,8 +30,8 @@ function color(e, c){
 
 function filter(){
   const ul = document.getElementById('dog-breeds');
-  const select = document.querySelector('select#breed-dropdown');
-  
+  const select = document.querySelector('select#breed-dropdown').value;
+  const
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
