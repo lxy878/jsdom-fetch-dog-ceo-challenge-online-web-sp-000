@@ -5,6 +5,10 @@ function getJson(url, fun){
   fetch(url).then(res => res.json()).then(json => fun(json.message));
 }
 
+function image(json){
+    console.log(json)
+}
+
 function breedList(json){
   for (const key in json){
     const array = json[key];
