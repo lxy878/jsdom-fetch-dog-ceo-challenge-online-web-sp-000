@@ -35,7 +35,7 @@ function filter(value){
     if(breed.textContent[0] !== value){
       breed.style.display = 'none';
     }else{
-      breed.style.display = 'block';
+      breed.style.display = 'list-item';
     }
   }
 }
