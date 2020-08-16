@@ -18,7 +18,7 @@ function breedList(json){
   const ul = document.getElementById('dog-breeds');
   for (const key in json){
     const li = document.createElement('li');
-    li.innerText = `${key}`
+    li.innerText = key
     ul.appendChild(li);
   }
 }
