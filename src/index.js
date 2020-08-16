@@ -29,5 +29,5 @@ function color(e, c){
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
-  
+  getJson(imageUrl, image)
 });
