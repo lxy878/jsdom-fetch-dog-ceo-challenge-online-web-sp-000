@@ -19,7 +19,7 @@ function breedList(json){
   for (const key in json){
     const li = document.createElement('li');
     li.innerText = key
-    li.addListener('click', color())
+    li.addListener('click', color(li, "#FF6666"))
     ul.appendChild(li);
   }
 }
