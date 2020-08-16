@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () =>{
   fetchData(breedUrl, breedList)
 
   const select = document.querySelector('select#breed-dropdown');
-  document.addEventListener('click', e => {
+  select.addEventListener('change', e => {
     console.log(e.target);
     filter()
   });
