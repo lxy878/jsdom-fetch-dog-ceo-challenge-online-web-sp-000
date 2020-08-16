@@ -10,6 +10,6 @@ function breedList(json){
   const ul = document.getElementById('dog-breeds');
   const li = document.createElement('li');
   li.innerText = ''
-  ul.appendChild(li);
+  document.getElementById('dog-breeds').appendChild(li);
   console.log(json);
 }
