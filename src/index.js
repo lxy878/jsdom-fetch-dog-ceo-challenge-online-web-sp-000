@@ -41,4 +41,5 @@ function filter(){
 document.addEventListener('DOMContentLoaded', () =>{
   getJson(imgUrl, image);
   getJson(breedUrl, breedList)
+  
 });
