@@ -23,4 +23,6 @@ function breedList(json){
   }
 }
 
-function 
+function color(){
+  
+}
