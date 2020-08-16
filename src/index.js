@@ -29,5 +29,6 @@ function color(e, c){
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
-  getJson(imageUrl, image)
+  getJson(imageUrl, image);
+  getJson(breedUrl, breedList)
 });
