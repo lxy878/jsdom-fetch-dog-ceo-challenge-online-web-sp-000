@@ -7,5 +7,5 @@ function getJson(url, fun){
 }
 
 function list(json){
-  console.log(json)
+  console.log(json);
 }
