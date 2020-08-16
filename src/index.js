@@ -10,7 +10,7 @@ function image(json){
   for (const image of json){
     const img = document.createElement('img');
     img.src = image;
-    div.appendChild(li);
+    div.appendChild(img);
   }
 }
 
