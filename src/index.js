@@ -28,7 +28,7 @@ function color(e, c){
   e.style.color = c;
 }
 function filter(){
-
+  e
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
