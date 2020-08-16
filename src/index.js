@@ -7,5 +7,7 @@ function getJson(url, fun){
 }
 
 function breedList(json){
+  const ul = document.getElementById('dog-breeds')
+  
   console.log(json);
 }
