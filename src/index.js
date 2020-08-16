@@ -6,6 +6,6 @@ function getJson(url, fun){
   fetch(url).then(res => res.json()).then(json => fun(json));
 }
 
-function list(){
+function list(json){
 
 }
