@@ -25,5 +25,5 @@ function breedList(json){
 }
 
 function color(e, c){
-  element.style.color = hexColor;
+  e.style.color = c;
 }
