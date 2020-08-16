@@ -27,6 +27,9 @@ function breedList(json){
 function color(e, c){
   e.style.color = c;
 }
+function filter(){
+
+}
 
 document.addEventListener('DOMContentLoaded', () =>{
   getJson(imgUrl, image);
