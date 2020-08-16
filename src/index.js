@@ -7,7 +7,7 @@ function getJson(url, fun){
 }
 
 function breedList(json){
-  const li = document.createElement('li');
+  const li = document.createElement('p');
   li.innerText = ''
   document.getElementById('dog-breeds').appendChild(li);
   // console.log(json);
