@@ -12,10 +12,9 @@ function breedList(json){
   for (const key in json){
     const array = json[key];
     if (Array.isArray(array)){
-
+      for (const name of array)
+      li.innerText = `${}`
+      document.getElementById('dog-breeds').appendChild(li);
     }
   }
-  li.innerText = 'dfdfdf'
-  document.getElementById('dog-breeds').appendChild(li);
-  console.log(json);
 }
