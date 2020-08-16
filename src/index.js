@@ -17,13 +17,8 @@ function image(json){
 function breedList(json){
   const ul = document.getElementById('dog-breeds');
   for (const key in json){
-    const array = json[key];
-    if (array.length>0){
-      for (const name of array){
-        const li = document.createElement('li');
-        li.innerText = `${name}`
-        ul.appendChild(li);
-      }
-    }
+    const li = document.createElement('li');
+    li.innerText = `${name}`
+    ul.appendChild(li);
   }
 }
