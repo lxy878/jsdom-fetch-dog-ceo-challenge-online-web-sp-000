@@ -6,17 +6,18 @@ function getJson(url, fun){
 }
 
 function image(json){
-    console.log(json)
+
 }
 
 function breedList(json){
+  const ul = document.getElementById('dog-breeds');
   for (const key in json){
     const array = json[key];
     if (array.length>0){
       for (const name of array){
         const li = document.createElement('li');
         li.innerText = `${name}`
-        document.getElementById('dog-breeds').appendChild(li);
+        ul.appendChild(li);
       }
     }
   }
