@@ -29,7 +29,8 @@ function color(e, c){
 }
 
 function filter(){
-  e
+  const ul = document.getElementById('dog-breeds');
+  
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
