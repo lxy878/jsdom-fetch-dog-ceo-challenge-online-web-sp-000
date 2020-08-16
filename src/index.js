@@ -9,7 +9,7 @@ function image(json){
   const div = document.getElementById('dog-image-container');
   for (const image of json){
     const img = document.createElement('img');
-
+    img.src = image
     div.appendChild(li);
   }
 }
