@@ -33,13 +33,12 @@ function filter(){
   const select = document.querySelector('select#breed-dropdown');
   for (const key in json){
     if (key[0] === select.value){
-
+      const li = document.createElement('li');
+      li.innerText = key
+      li.style.cursor = "pointer";
+      li.addEventListener('click', () => color(li, "#FF6060"))
+      ul.appendChild(li);
     }
-    const li = document.createElement('li');
-    li.innerText = key
-    li.style.cursor = "pointer";
-    li.addEventListener('click', () => color(li, "#FF6060"))
-    ul.appendChild(li);
   }
 }
 
