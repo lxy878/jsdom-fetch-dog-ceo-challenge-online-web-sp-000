@@ -30,8 +30,17 @@ function color(e, c){
 
 function filter(){
   const ul = document.getElementById('dog-breeds');
-  const select = document.querySelector('select#breed-dropdown').value;
-  const
+  const select = document.querySelector('select#breed-dropdown');
+  for (const key in json){
+    if (key){
+      
+    }
+    const li = document.createElement('li');
+    li.innerText = key
+    li.style.cursor = "pointer";
+    li.addEventListener('click', () => color(li, "#FF6060"))
+    ul.appendChild(li);
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
