@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () =>{
   fetchData(imgUrl, image);
   fetchData(breedUrl, breedList)
 
+  const select = document.querySelector('select#breed-dropdown');
   document.addEventListener('click', e => {
     console.log(e.target);
     filter()
