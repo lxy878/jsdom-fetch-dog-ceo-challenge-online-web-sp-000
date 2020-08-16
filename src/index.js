@@ -43,5 +43,8 @@ document.addEventListener('DOMContentLoaded', () =>{
   fetchData(imgUrl, image);
   fetchData(breedUrl, breedList)
 
-  document.addEventListener('click', () => filter());
+  document.addEventListener('click', e => {
+
+    filter()
+  });
 });
