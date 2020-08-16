@@ -8,7 +8,7 @@ function getJson(url, fun){
 function breedList(json){
   for (const key in json){
     const array = json[key];
-    if (Array.isArray(array)){
+    if (array.length>0){
       for (const name of array){
         const li = document.createElement('li');
         li.innerText = `${name}`
