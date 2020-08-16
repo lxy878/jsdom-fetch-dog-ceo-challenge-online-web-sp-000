@@ -32,8 +32,8 @@ function filter(){
   const ul = document.getElementById('dog-breeds');
   const select = document.querySelector('select#breed-dropdown');
   for (const key in json){
-    if (key){
-      
+    if (key[0] === select.value){
+
     }
     const li = document.createElement('li');
     li.innerText = key
