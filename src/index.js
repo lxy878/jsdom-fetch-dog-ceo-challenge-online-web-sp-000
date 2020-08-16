@@ -19,6 +19,7 @@ function breedList(json){
   for (const key in json){
     const li = document.createElement('li');
     li.innerText = key
+    listyle.cursor = "pointer";
     li.addEventListener('click', color(li, "#FF6666"))
     ul.appendChild(li);
   }
