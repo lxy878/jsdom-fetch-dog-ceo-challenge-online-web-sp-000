@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () =>{
   fetchData(breedUrl, breedList)
 
   document.addEventListener('click', e => {
-
+    console.log(e.target);
     filter()
   });
 });
