@@ -34,6 +34,8 @@ function filter(value){
   for(const breed of list){
     if(breed.textContent[0] !== value){
       breed.style.display = 'none';
+    }else{
+      breed.style.display = 'block';
     }
   }
 }
