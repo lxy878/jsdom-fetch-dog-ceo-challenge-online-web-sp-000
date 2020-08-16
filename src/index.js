@@ -32,7 +32,7 @@ function color(e, c){
 function filter(value){
   const list = document.getElementById('dog-breeds').children;
   for(const breed of list){
-    if(breed.textContent[0] !== select.value){
+    if(breed.textContent[0] !== value){
       breed.style.display = 'none';
     }
   }
