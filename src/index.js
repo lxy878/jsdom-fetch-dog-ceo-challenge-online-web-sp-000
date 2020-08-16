@@ -13,7 +13,7 @@ function breedList(json){
     const array = json[key];
     if (Array.isArray(array)){
       for (const name of array){
-        li.innerText = `${}`
+        li.innerText = `${name}`
         document.getElementById('dog-breeds').appendChild(li);
       }
     }
