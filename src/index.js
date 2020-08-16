@@ -29,7 +29,7 @@ function color(e, c){
   e.style.color = c;
 }
 
-function filter(select){
+function filter(value){
   const list = document.getElementById('dog-breeds').children;
   for(const breed of list){
     if(breed.textContent[0] !== select.value){
