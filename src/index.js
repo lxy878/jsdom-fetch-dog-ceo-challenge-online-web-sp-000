@@ -9,7 +9,7 @@ function getJson(url, fun){
 function breedList(json){
   const li = document.createElement('li');
   j=json;
-  for (const message of json){
+  for (const  in json){
     j=message
   }
   li.innerText = 'dfdfdf'
