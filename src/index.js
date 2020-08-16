@@ -10,5 +10,5 @@ function breedList(json){
   const li = document.createElement('li');
   li.innerText = ''
   document.getElementById('dog-breeds').appendChild(li);
-  console.log(json);
+  // console.log(json);
 }
