@@ -33,7 +33,7 @@ function filter(){
   const select = document.querySelector('select#breed-dropdown');
   for(const breed of list){
     if(breed.textContent[0] !== select.value){
-      
+      breed.style.display = 'none';
     }
   }
 }
