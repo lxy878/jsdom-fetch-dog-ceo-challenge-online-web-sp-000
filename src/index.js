@@ -27,3 +27,7 @@ function breedList(json){
 function color(e, c){
   e.style.color = c;
 }
+
+document.addEventListener('DOMContentLoaded', () =>{
+  
+});
