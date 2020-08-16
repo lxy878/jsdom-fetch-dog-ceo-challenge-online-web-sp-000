@@ -20,7 +20,7 @@ function breedList(json){
     const li = document.createElement('li');
     li.innerText = key
     li.style.cursor = "pointer";
-    li.addEventListener('click', () => color(li, blue))
+    li.addEventListener('click', () => color(li, 'blue'))
     ul.appendChild(li);
   }
 }
