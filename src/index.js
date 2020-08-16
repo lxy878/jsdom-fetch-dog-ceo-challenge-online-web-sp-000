@@ -8,7 +8,7 @@ function getJson(url, fun){
 function image(json){
   const div = document.getElementById('dog-image-container');
   for (const image of json){
-    const imageElement = document.createElement('image');
+    const img = document.createElement('img');
 
     div.appendChild(li);
   }
