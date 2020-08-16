@@ -32,7 +32,7 @@ function filter(){
   const list = document.getElementById('dog-breeds').children;
   const select = document.querySelector('select#breed-dropdown');
   for(const breed of list){
-    if(breed.textContent[0] === select.value){
+    if(breed.textContent[0] !== select.value){
       
     }
   }
